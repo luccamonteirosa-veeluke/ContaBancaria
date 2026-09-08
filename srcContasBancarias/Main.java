@@ -27,17 +27,21 @@ void main() {
                     case "1" -> {
                         double dinheirodep = Double.parseDouble(readln("digite o valor para depositar"));
                         ce.depositar(dinheirodep);
+                        continue;
                     }
                     case "2" -> {
                         double dinheirosac = Double.parseDouble(readln("digite o valor para sacar"));
                         ce.saque(dinheirosac);
+                        continue;
                     }
                     case "3" -> {
                         ce.getSaldo();
+                        continue;
 
                     }
                     case "4" -> {
                         on = false;
+                        continue;
 
                     }
                 }
