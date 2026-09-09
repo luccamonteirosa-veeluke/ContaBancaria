@@ -1,5 +1,5 @@
 public abstract class ContaBancaria {
-    protected Double saldo;
+    protected double saldo;
     protected String num_conta;
     protected String nome;
     protected double limite;
