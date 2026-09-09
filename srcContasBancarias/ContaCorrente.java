@@ -8,7 +8,7 @@ public class ContaCorrente extends ContaBancaria {
     @Override
     public void saque(Double dinheiro){
         if(dinheiro<=0){
-            System.out.println("erro vaor deve ser maior que zero");
+            System.out.println("erro valor deve ser maior que zero");
         }
         if (dinheiro<=this.saldo){
             this.saldo -= dinheiro;
@@ -21,7 +21,7 @@ public class ContaCorrente extends ContaBancaria {
             System.out.println("Sucesso seu dinheiro foi sacado: " + dinheiro);
         }
         else {
-            System.out.println("ERRO valor maior que saldo e limite");
+            System.out.println("erro valor maior que saldo e limite");
         }
     }
 
